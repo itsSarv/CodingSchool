@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Nav = () => {
   return (
@@ -25,35 +27,35 @@ const Nav = () => {
                 gap: 32
             }}>
                 <li>
-                    <a href='#' style={{
+                    <Link to='/' style={{
                         textDecoration:'none',
                         color: '#323232',
                         fontSize: 17
-                    }}>Home</a>
+                    }}>Home</Link>
                 </li>
                 <li>
-                    <a href='#' style={{
+                    <Link to='/teachers' style={{
                         textDecoration:'none',
                         color: '#323232',
                         fontSize: 17
-                    }}>Teachers</a>
+                    }}>Teachers</Link>
                 </li>
                 <li>
-                    <a href='#' style={{
+                    <Link to='/holidays' style={{
                         textDecoration:'none',
                         color: '#323232',
                         fontSize: 17
-                    }}>Holidays</a>
+                    }}>Holidays</Link>
                 </li>
                 <li>
-                    <a href='#' style={{
+                    <Link to='/contact-us' style={{
                         textDecoration:'none',
                         color: 'white',
                         fontSize: 17,
                         borderRadius: 5,
                         backgroundColor:'#7e01fa',
                         padding: "10px 20px"
-                    }}>Contact Us</a>
+                    }}>Contact Us</Link>
                 </li>
             </ul>
     </nav>
