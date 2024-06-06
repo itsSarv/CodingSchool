@@ -5,6 +5,7 @@ import Teachers from './components/Teachers'
 import Holidays from './components/Holidays'
 import ContactUs from './components/ContactUs'
 import Notfound from './components/Notfound'
+import 'remixicon/fonts/remixicon.css'
 
 
 const App = () => {
