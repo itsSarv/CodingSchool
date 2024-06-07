@@ -98,7 +98,7 @@ const Footer = () => {
         flexDirection:'column',
         alignItems: 'center'
       }}>
-      <h3>Reach Us</h3>
+      <h3>Social Links</h3>
       <ul style={{
         listStyle:'none',
         display:'flex',
