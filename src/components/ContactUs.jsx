@@ -6,7 +6,11 @@ const ContactUs = () => {
   return (
     <div>
         <Nav/>
-        <h1>Contact Us</h1>
+       <div>
+        <input placeholder='Your Query' / >
+        <text placeholder='Description'/>
+        <button>Submit</button>
+        </div>
         <Footer/>
     </div>
   )
