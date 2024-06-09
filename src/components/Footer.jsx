@@ -20,7 +20,7 @@ const Footer = () => {
       gap: 5
     }}>
       <p>Coding School</p>
-      <p><i class="ri-copyright-line"></i></p> 
+      <p><i className="ri-copyright-line"></i></p> 
        <p>2024</p>
       
       </div>

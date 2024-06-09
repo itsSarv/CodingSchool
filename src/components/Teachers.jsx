@@ -77,7 +77,6 @@ const Teachers = () => {
   return (
     <div>
         <Nav/>
-        
         <header style={{
           display: 'flex',
           justifyContent: 'center',
