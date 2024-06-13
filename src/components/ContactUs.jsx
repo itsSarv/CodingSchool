@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Swal from 'sweetalert2'
 import Nav from './Nav'
 import Footer from './Footer'
+import { clear } from '@testing-library/user-event/dist/clear'
+import { Link } from 'react-router-dom'
 
 
 
@@ -9,15 +11,16 @@ const ContactUs = () => {
 
   const[fullName, setFullName] = useState('')
   const[email, setEmail] = useState('')
-  const[message, setMessage] = useState('df')
+  const[message, setMessage] = useState('')
 
   const contactmessage =(e)=>{
     e.preventDefault()
+    console.log(fullName, email, message)
     Swal.fire({
-      icon: 'success',
+      icon: "success",
       title: 'Success',
       text: 'Thank You ! We will reach you soon',
-      confirmButtonText: 'OK'
+      confirmButtonText: 'OK',
     })
   }
 
