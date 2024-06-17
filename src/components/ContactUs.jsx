@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Swal from 'sweetalert2'
 import Nav from './Nav'
 import Footer from './Footer'
-import { clear } from '@testing-library/user-event/dist/clear'
-import { Link } from 'react-router-dom'
+// import { clear } from '@testing-library/user-event/dist/clear'
+// import { Link } from 'react-router-dom'
 
 
 
@@ -22,6 +22,9 @@ const ContactUs = () => {
       text: 'Thank You ! We will reach you soon',
       confirmButtonText: 'OK',
     })
+    setFullName('')
+    setEmail('')
+    setMessage('')
   }
 
   return (
@@ -65,6 +68,7 @@ const ContactUs = () => {
           name='fullname'
           type='text'
           placeholder='Full Name' 
+          value={fullName}
           style={{
             border: '1px solid #ccc',
             borderRadius: 6,
@@ -90,6 +94,7 @@ const ContactUs = () => {
             name='email'
             type='email'
             placeholder='Email' 
+            value={email}
             style={{
             border: '1px solid #ccc',
             borderRadius: 6,
@@ -116,6 +121,7 @@ const ContactUs = () => {
         name='message'
         type='text'
         placeholder='Message'
+        value={message}
           style={{
              border: '1px solid #ccc',
              borderRadius: 6,
