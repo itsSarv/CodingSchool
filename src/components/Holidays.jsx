@@ -43,7 +43,7 @@ const Holidays = () => {
      <h1 style={{
       textAlign:'center',
       marginBottom: '40px'
-     }}>Your Holidays</h1>
+     }}>Your Holidays</h1>  
 
      <table width='100%'>
       <thead>
