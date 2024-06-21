@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <nav style={{
+    <nav 
+        className='sticky top-0 left-0 '
+        style={{
         display: 'flex',
         justifyContent: 'space-between',
         padding: "8px 48px",
         background: 'white',
         boxShadow: '0 8px 8px 0 rgba(0,0,0,0.1)'
-
     }}>
         <div style={{
         display: 'flex',
@@ -18,7 +19,7 @@ const Nav = () => {
         alignItems: "center"
                     }}>
             <img src='./images/logo.png' alt='school' width="60"/>
-            <h1>Coding School</h1>
+            <h1 className='text-2xl font-bold'>Coding School</h1>
         </div>
             <ul style={{
                 listStyle: 'none',

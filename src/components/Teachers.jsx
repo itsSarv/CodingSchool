@@ -86,7 +86,7 @@ const Teachers = () => {
           color:'white'
         }}>
         
-        <h1>
+        <h1 className='text-4xl font-bold animate__animated animate__pulse'>
         <i className="ri-user-voice-line" style={{marginRight:10}}></i>
           Teachers
           </h1>

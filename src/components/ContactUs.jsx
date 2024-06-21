@@ -37,7 +37,7 @@ const ContactUs = () => {
           display: 'flex',
         }
        }>
-        <img src='/images/contact-us.jpg' width='50%' alt='contact'/>
+        <img className='animate__animated animate__zoomIn' src='/images/contact-us.jpg' width='50%' alt='contact'/>
 
        <div style={{
          width: '50%'

@@ -10,7 +10,6 @@ import 'remixicon/fonts/remixicon.css'
 
 
 
-
 const App = () => {
   return (
     <BrowserRouter>

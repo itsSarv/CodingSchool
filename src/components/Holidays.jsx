@@ -34,17 +34,27 @@ const Holidays = () => {
   return (
     <div>
      <Nav/>
+     <div>
+     <header style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems:'center',
+          backgroundImage: ' linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          padding: '64px 32px',
+          color:'white'
+        }}>
+        
+        <h1 className='text-4xl font-bold animate__animated animate__pulse'>
+        <i className="ri-emotion-happy-line" style={{marginRight:10}}></i>
+          Holidays
+          </h1>
+        </header>
      <div style={{
       width: '60%',
       margin: '0 auto',
       padding: '60px 0'
 
      }}>
-     <h1 style={{
-      textAlign:'center',
-      marginBottom: '40px'
-     }}>Your Holidays</h1>  
-
      <table width='100%'>
       <thead>
         <tr style={{
@@ -82,6 +92,8 @@ const Holidays = () => {
       </table>
 
      </div>
+     </div>
+    
      <Footer/>
     </div>
   )
