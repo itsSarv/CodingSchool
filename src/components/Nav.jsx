@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <nav 
-        className='sticky top-0 left-0 '
+        className='sticky top-0 left-0 z-10 '
         style={{
         display: 'flex',
         justifyContent: 'space-between',
